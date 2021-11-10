@@ -85,7 +85,7 @@ namespace API.Controllers
             return new ContentResult
             {
                 ContentType = MediaTypeNames.Text.Html,
-                Content = template(new
+                Content = template(new TestModel
                 {
                     FirstName = "John",
                     LastName = "Doe",
